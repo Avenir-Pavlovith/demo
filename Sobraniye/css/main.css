@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'RotondaC';
+    src: url('../fonts/RotondaC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/RotondaC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/RotondaC.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/RotondaC.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/RotondaC.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/RotondaC.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'RotondaC-Bold';
+    src: url('../fonts/RotondaC-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/RotondaC-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/RotondaC-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/RotondaC-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/RotondaC-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/RotondaC-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+}
+div, p, form, input, a, span, button, textarea{
+	box-sizing: border-box;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.4em;
+    color: #000;
+    text-align: center;
+    font-family: 'RotondaC';
+    font-size: 18px;
+    color: #717070;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+} 
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+    font-weight: bold;
+}
+.btn {
+    font-family: 'RotondaC-Bold';
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    
+}
+.btn-2{
+    font-family: 'RotondaC-Bold';
+    width: 100%;
+    max-width: 350px;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  padding:  20px;
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 50px;
+  display: inline-block;
+  color: #0075df;
+  
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  
+  /* Our gradient */
+  background: rgba(255,255,255,1);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(197,225,248,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(197,225,248,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(197,225,248,1) 100%);
+}
+.btn-2:hover{
+text-decoration: none;
+
+}
+
+.btn-2::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -10px;
+  left: 5%;
+  height: 110%;
+  width: 90%;
+  opacity: 0.8;
+  border-radius: 50px;
+  
+  /* Declaring our shadow color inherit from the parent (button) */
+ background: rgb(210,232,251);
+background: linear-gradient(90deg, rgba(210,232,251,1) 0%, rgba(110,181,251,1) 100%);
+  
+  transition: 300ms ease;
+  
+  /* Changing blur effect */
+  filter: blur(15px);
+
+  /* And change the style properties */
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+}
+
+
+
+.btn-2:hover::after {
+  /* Changing blur effect */
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+
+  /* And change the style properties */
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+}
+.btn-1{
+    font-family: 'RotondaC-Bold';
+    color: #e00a9e;
+    background: rgb(255,250,255);
+  background: linear-gradient(180deg, rgba(255,250,255,1) 0%, rgba(251,211,238,1) 100%);
+  }
+  
+  .btn-1::after{
+    background: rgb(246,161,220);
+  background: linear-gradient(90deg, rgba(246,161,220,1) 0%, rgba(247,216,234,1) 100%);
+  }
+  .btn-1:hover{
+      color: #dd069e;
+  }
+.sobranie {
+    margin-top: 150px;
+}
+.img {
+    margin-bottom: 25px;
+}
+.first {
+    margin-bottom: 15px;
+}
+.shop {
+    margin-bottom: 130px;
+}
+.logo {
+    max-width: 580px;
+    width: 80%;
+}
+.two {
+    color: #e39f8b;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn_main {
+    margin: 50px 0 140px 0;
+}
+.wild {
+    color: #dd069e  ;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(249,213,237,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(249,213,237,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(249,213,237,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(249,213,237,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(249,213,237,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(249,213,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9d5ed', GradientType=0 );
+    
+    -webkit-box-shadow: -35px 14px 55px 7px rgba(247,202,233,1);
+-moz-box-shadow: -35px 14px 55px 7px rgba(247,202,233,1);
+box-shadow: -35px 14px 55px 7px rgba(247,202,233,1);
+}
+.ozon {
+    color: #087dde;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(197,225,248,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(197,225,248,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(197,225,248,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(197,225,248,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(197,225,248,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(197,225,248,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c5e1f8', GradientType=0 );
+
+    -webkit-box-shadow: 32px 11px 55px 7px rgba(181,217,246,0.82);
+-moz-box-shadow: 32px 11px 55px 7px rgba(181,217,246,0.82);
+box-shadow: 32px 11px 55px 7px rgba(181,217,246,0.82);
+}
+.thanks {
+    font-size: 19px;
+}
+@media screen and (max-width: 992px) {
+	
+}
+@media screen and (max-width: 576px) {
+    .btn_main {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .btn-2{
+        margin-top: 30px;
+        font-size: 16px;
+
+    }
+    .sobranie {
+        margin-top: 30px;
+    }
+    .shop {
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .two {
+        font-size: 15px;
+    }
+    .thanks {
+        font-size: 17px;
+    }
+}
+
