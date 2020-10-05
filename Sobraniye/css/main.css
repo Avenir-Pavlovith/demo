@@ -243,5 +243,10 @@ box-shadow: 32px 11px 55px 7px rgba(181,217,246,0.82);
     .thanks {
         font-size: 17px;
     }
+    .logo {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
 }
 
