@@ -262,6 +262,7 @@ box-shadow: 32px 11px 55px 7px rgba(181,217,246,0.82);
     .img {
         max-width: 580px;
         width: 80%;
+        height: 80px;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
