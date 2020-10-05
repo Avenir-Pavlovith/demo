@@ -167,6 +167,9 @@ background: linear-gradient(90deg, rgba(210,232,251,1) 0%, rgba(110,181,251,1) 1
 .logo {
     max-width: 580px;
     width: 80%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .two {
     color: #e39f8b;
