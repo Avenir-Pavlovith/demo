@@ -219,8 +219,58 @@ form {
     margin: 46px 47px 46px 47px;
 }
 
+/*---section class="offer"--*/
 
 
+.offer { 
+    background: #E5E5E5;
+    position: relative;
+    z-index: 15;
+}
+.offer h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 80px 0 38px 0;
+}
+.card {
+    width: 255px;
+    background: #fff;
+    margin-bottom: 100px;
+}
+.chair {
+    margin: 25px 65px 20px 65px;
+}
+.card p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    width: 195px;
+    margin-left: 30px;
+}
+.card h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 15px 0 15px 0;
+}
+.bye {
+    width: 130px;
+    height: 35px;
+    background: #F13C6E;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding-top: 9px;
+    border-radius: 30px;
+    margin: 0 0 34px 62px;
+}
 
 
 
