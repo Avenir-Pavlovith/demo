@@ -1,0 +1,310 @@
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #272c2f;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+ div, p, form, input, a, span, button, textarea{
+	box-sizing: border-box;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    line-height: 1.4em;
+}
+a {
+    color:#000;  
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+    font-weight: bold;
+}
+.wrapper {
+    position: fixed; 
+    left: 0; top: 0;
+    background: #E5E5E5; 
+    color:#333333;
+    width: 100%;
+}
+.header {
+    margin-top: 52px;
+    align-items: center;
+    display: block;
+    padding-top: 40px;
+    background-color: #fff;
+    Position: relative;
+    Z-index:10;
+}
+.header:after {
+    content: "";
+    width: 100%;
+    display: block;
+    border: 1px solid#EFEFEF;
+}
+.menu a {
+    color: #333333;
+    padding: 14px 15px 14px 15px;
+    display: block;
+    text-decoration: none;
+    border-radius: 40px;
+
+}
+.menu a:hover {
+    background:#fff;
+    transition: 1s ease;
+}
+form {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    margin-left: 120px;
+    
+  }
+  input, button {
+    border: none;
+    outline: none;
+  }
+  input {
+    width: 100%;
+    height: 42px;
+    background: #EFEFEF;
+    border-radius: 40px;
+    padding-left: 55px;
+    padding-right: 20px;
+  }
+  button {
+    background: url(../img/Vector\ 4.png) no-repeat center center;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    cursor: pointer;
+  }
+.logo {
+    margin-top: -20px;
+    margin-bottom: 20px;  
+}
+.logo_main {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+} 
+.telefon_main {
+    margin-left: 91px;
+}
+.telefon {
+    display: block;
+    margin-top: 10px;
+}
+.telefon:hover {
+    text-decoration: none;
+    color: #F13C6E;
+}
+.cool {
+    width: 170px;
+    height: 40px;
+    border: 2px solid #F13C6E;
+    display: block;
+    border-radius: 40px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 10px;
+    
+}
+.root {
+    margin-left: auto;
+}
+
+
+/*---Второе меню---*/
+
+.menu_second {
+    background-color: #fff;
+    Position: relative;
+    Z-index:10;
+}
+.menu_two {
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    
+}
+.menu_btn2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 30px 30px 0;
+    
+}
+
+/*----Вторая секция---*/
+
+.sale {
+    background: #F13C6E;
+    color: #fff;
+}
+.sale h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 192px;
+}
+.sale p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+.podrobnee {
+    width: 170px;
+    height: 40px;
+    border: 2px solid #fff;
+    background: #F13C6E;
+    display: block;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 10px;
+    margin: 50px 0 193px 0;
+}
+.light {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 859px;
+    height: 859px;
+    align-items: center; 
+    top: -120px;
+    left: -35px;  
+}
+.light_dark {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    width: 677px;
+    height: 677px;
+    margin-left: 91px;
+    margin-top: 91px;
+}
+.img_1 {
+    margin: 46px 47px 46px 47px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
