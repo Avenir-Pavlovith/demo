@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6{
     padding-right: 20px;
 }
 .header button {
-    background: url(../img/Vector\ 4.png) no-repeat center center;
+    background: url(../img/) no-repeat center center;
     height: 26px;
     width: 26px;
     position: absolute;
@@ -272,18 +272,19 @@ h1, h2, h3, h4, h5, h6{
     margin: 15px 0 15px 0;
 }
 .bye {
-    width: 130px;
-    height: 35px;
+    max-width: 130px;
+    width: 100%;
+    height: auto;
     background: #F13C6E;
     color: #fff;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    padding: 7px;
+    margin: 20px auto 30px;
     text-align: center;
     letter-spacing: 0.05em;
-    padding-top: 9px;
     border-radius: 30px;
-    margin: 0 0 34px 62px;
+    border: 2px solid;
 }
 .bye:hover {
     border: 2px solid #F13C6E;
@@ -331,10 +332,7 @@ h1, h2, h3, h4, h5, h6{
 .bonus input:active, :hover, :focus {
     outline: 0;
     outline-offset: 0;
-}
-.email {
-
-}  
+} 
 .bonus_img {
     margin: 36px 0 0 55px;
 } 
