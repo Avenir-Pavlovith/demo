@@ -64,27 +64,27 @@ h1, h2, h3, h4, h5, h6{
     background:#fff;
     transition: 1s ease;
 }
-form {
+.header form {
     position: relative;
     width: 250px;
     height: 40px;
     margin: 0 auto;
     margin-left: 120px;
     
-  }
-  input, button {
+}
+.header input, button {
     border: none;
     outline: none;
-  }
-  input {
+}
+.header input {
     width: 100%;
     height: 42px;
     background: #EFEFEF;
     border-radius: 40px;
     padding-left: 55px;
     padding-right: 20px;
-  }
-  button {
+}
+.header button {
     background: url(../img/Vector\ 4.png) no-repeat center center;
     height: 26px;
     width: 26px;
@@ -273,7 +273,27 @@ form {
 }
 
 
+/*---bonus---*/
 
+.bonus {
+    background: #F13C6E;
+    color: #fff;
+}
+.bonus h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 35px 0 25px 0;
+}
+.bonus p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 25px 0;
+}
+.bonus form {
+    margin-bottom: 35px;
+}
 
 
 
