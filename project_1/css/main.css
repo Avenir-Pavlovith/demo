@@ -329,6 +329,9 @@ h1, h2, h3, h4, h5, h6{
     border: #fff;
     padding-left: 20px;
 }
+#valy {
+    color: #C4C4C4;
+}
 .bonus input:active, :hover, :focus {
     outline: 0;
     outline-offset: 0;
